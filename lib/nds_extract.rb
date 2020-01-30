@@ -48,6 +48,5 @@ def total_gross(source)
   total = 0
   test = directors_totals(source)
   list = list_of_directors(source)
-  puts test[list[0]]
-
+  puts test.length
 end
