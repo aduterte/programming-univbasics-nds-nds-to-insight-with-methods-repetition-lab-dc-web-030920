@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this impleimentation
-  puts source
+  puts source.count
 end
 
 def total_gross(source)
