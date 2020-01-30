@@ -46,7 +46,12 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   total = 0
-  test = directors_totals(source)
+  i=0
+  dir_totals = directors_totals(source)
   list = list_of_directors(source)
-  puts test.length
+  while i < dir_totals.length do
+    total += dir_totals[list[i]]
+    i += 1
+  end
+  total
 end
