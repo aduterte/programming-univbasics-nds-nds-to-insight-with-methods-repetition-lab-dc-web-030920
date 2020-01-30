@@ -26,13 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this impleimentation
-  i = 0
-  list ={}
-  while i = 0 < source.count do
-    puts source[i][:name]
-    i += 1
-  end
-  pp source
+  puts source
 end
 
 def total_gross(source)
